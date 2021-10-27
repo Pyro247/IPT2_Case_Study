@@ -1,11 +1,11 @@
-Read meeeeeeee!
+Please Read Me!
 
 Access with database
 
 1. Run Xammpp(Apache & Mysql)
 2. Open Broswer and go to http://localhost/phpmyadmin/
-   3.Create new database and name it as "web-based-billing-management-system-v2" exact name of what you want to import
-   4.After you create the database, click import and select database file inside this project and click go
+3.Create new database and name it as "web-based-billing-management-system-v2" exact name of what you want to import
+4.After you create the database, click import and select database file inside this project and click go
    If you not encoutered any error Yehey:) you can now test this project with database
 
 IMPORTANT IMPORTS:
