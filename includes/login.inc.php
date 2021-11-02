@@ -27,25 +27,25 @@
 
       if($resLogin->num_rows > 0){
         if($rowLogin['role'] == 'Registrar' ){
-          header('Location: ../html/registrar_access.php');
+          header('Location: ../html/registrar-access.php');
           $_SESSION['fullname'] = $rowLogin['fullname'];
           $_SESSION['employeeId'] = $rowLogin['user_id'];
           $_SESSION['role'] = $rowLogin['role'];
 
         }else if ( $rowLogin['role'] == 'Cashier') {
-          header('Location: ../html/cashier_access.php');
+          header('Location: ../html/cashier-access.php');
           $_SESSION['fullname'] = $rowLogin['fullname'];
           $_SESSION['employeeId'] = $rowLogin['user_id'];
           $_SESSION['role'] = $rowLogin['role'];
 
         }else if ( $rowLogin['role'] == 'Admin' ){
-          header('Location: ../html/registrar_access.php');
+          header('Location: ../html/registrar-access.php');
           $_SESSION['fullname'] = $rowLogin['fullname'];
           $_SESSION['employeeId'] = $rowLogin['user_id'];
           $_SESSION['role'] = $rowLogin['role'];
 
         }else if( $rowLogin['role'] == 'Student' ){
-          header('Location: ../html/student_access.php');
+          header('Location: ../html/student-access.php');
           $_SESSION['fullname'] = $rowLogin['fullname'];
           $_SESSION['stud_id'] = $rowLogin['user_id'];
           $_SESSION['email'] = $rowLogin['email'];
