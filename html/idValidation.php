@@ -1,25 +1,3 @@
-idValidation.php
-Who has access
-
-System properties
-Type
-PHP
-Size
-3 KB
-Storage used
-3 KB
-Location
-Kevin - Login
-Owner
-Justine Dave
-Modified
-Oct 26, 2021 by Justine Dave
-Opened
-1:09 PM by me
-Created
-Oct 27, 2021
-No description
-Viewers can download
 <?php
     session_start();
     // if(isset($_SESSION['userId'])){
